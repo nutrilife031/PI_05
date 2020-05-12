@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- IMPORTANDO O ARQUIVO CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body style="background-color: rgba(214, 208, 208, 0.144);" >
+
+    <div class=" "id="NavBar1">
+        <div class="container ">
+            <div class="container  text-info ">
+                <!-- <NavBar> iníco -->
+                <nav class="navbar fixed-tabs  navbar-expand-lg  navbar-expand-xs navbar-expand-sm navbar-light  " 
+                    id="NavBar1">
+                    <a class="navbar-brand " style="font-size: 26px;" href="index.html">Nutr<img src="fotos/Logo2.png" style="width: 50px; height: 39px;" alt="">_ife</a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link text-light" href="index.html">Home </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#">Quem somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#">Serviços</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="btn btn-light =r bg-danger  text-light" href="Login.html">Entrar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" >
+        <div class="container   p-1 " style="margin-top: 2px; ">
+            <div class="container-fluid">
+                <div class="row justify-content-md-cente">
+                <div class="col-sm-3">
+                    <img src="fotos/logo.jpeg" alt="" style="width: 16rem;margin-top:1px;margin-left: 19px;">
+                </div>
+                   
+                    <div class="col-sm-8" id="GRID_RIGTH">
+                        <div class="container-fluid   ">
+                            <div class="card " style="margin-top:1px; height: 50px;">
+                                <div class="card-header " id="NavBar1">
+                                    <center> <a class="nav-item text-white">Cadastre-Se</a</center>
+                                </div>
+                                <div class="card-body" st>
+                                    <form class="text-center border border-light p-4" action="#!" style="margin-top: -10px;">
+                                        <div class="form-row  mb-3">
+                                            <div class="col-sm-4 ">
+                                                <!-- First name -->
+                                                <input type="text" id="defaultRegisterFormFirstName"
+                                                    class="form-control" placeholder="Nome">
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <!-- Last name -->
+                                                <input type="text" id="defaultRegisterFormLastName" class="form-control"
+                                                    placeholder="Sobrenome">
+                                            </div>
+                                        </div>
+
+                                        <!-- E-mail -->
+                                        <input type="email" required id="defaultRegisterFormEmail" title="Preencha seu email@mail.com"  class="form-control mb-3"
+                                            placeholder="E-mail">
+
+                                        <!-- Password -->
+                                        <input type="password" id="defaultRegisterFormPassword" class="form-control mb-3"
+                                            placeholder="Senha" maxlength="8" required="required"  title="Senha 1-Maiúsula 1-Minúscula 6-Números no total de 8 caracteres "
+                                            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                                       
+
+                                        <!-- Phone number -->
+                                        <input type="tel" size="11" maxlength="14" class="form-control" id="phone"
+                                            name="phone" placeholder="(DD) 99999-9999"
+                                            pattern="\(\d{2,}\) \d{4,}\-\d{4}"
+                                            title="Número de telefone precisa ser no formato (99) 9999-9999"
+                                            required="required" />
+
+
+                                        <div class="form-row mb-6 p-2">
+                                            <div class="form-row mb-2   " style="width: 570px;">
+                                                <div class="col-sm-4">
+                                                    <!-- Subject -->
+
+                                                    <select class="browser-default custom-select mb-4" name="sexo">
+                                                        <option value="0" disabled selected>Gênero</option>
+                                                        <option value="1">Masculino</option>
+                                                        <option value="2">Feminino</option>
+                                                        <option value="3">Outro</option>
+                                                    </select>
+                                                </div>
+                                              
+                                                <div class="col-sm-4 ">
+
+                                                    <input type="text" size="2" max="2" maxlength="2"
+                                                        id="defaultRegisterYear" name="idade" class="form-control"
+                                                        placeholder="Idade"
+                                                        aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                                                </div>
+                                                <div class="col-sm-4">
+
+                                                    <input type="text" size="2" max="2" maxlength="2"
+                                                        id="defaultRegisterYear" name="peso" class="form-control"
+                                                        placeholder="Peso"
+                                                        aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                                                </div>
+                                                <div class="col-sm-4">
+
+                                                    <input type="text" size="2" max="2" maxlength="2"
+                                                        id="defaultRegisterYear" name="altura" class="form-control"
+                                                        placeholder="Altura"
+                                                        aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex justify-content-leftr" style="margin-top: -8px;">
+                                            <div>
+                                                <!-- Remember me -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                                                    <label class="custom-control-label" for="defaultLoginFormRemember"><a href="">Confirmar termos de uso</a></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <!-- Forgot password -->
+                                               
+                                            </div>
+                                        </div>
+   
+    <!-- Sign in button -->
+    <button class="btn  btn-block text-white " id="NavBar1" style="margin-top: 8px;"   type="submit">Cadastrar</button>
+
+    <!-- Register -->
+  
+    
+ 
+    <!-- Social login -->
+    <p style="margin-top: 30px;" class="text-info"><a href="#" class="mx-2" role="button" alt="Facebook"  title="Facebook" ><i class="fab fa-facebook-f light-blue-text"></i></a>
+        <a href="#" class="mx-2" role="button" alt="Instagram"   title="Instagram"><i class="fab fa-instagram text-danger" ></i></a></p>
+
+    
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <!-- mdbootstrap -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
