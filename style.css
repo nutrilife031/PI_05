@@ -1,16 +1,18 @@
 |body{
     margin: 0px;
     padding: 0px;
-    
+  
+
+
 }
 #navHome{
     height: 90px;
-    background-color: #e2131e; 
+    background-color: #008B8B; 
    
 }
 
 #NavBar1{
-    background-color: #e2131e;
+    background-color: #008B8B;
 }
 #NavBarText{
     color:rgb(255, 255, 255);
@@ -27,8 +29,13 @@
  
     margin-left: 12px;
 }
-#text-backgroud{
- 
- 
-   
+.bd{
+    background-image: url(fotos/alimentos-saudaveis.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed ; 
+}
+.Corpo-HTML{
+    background-image: url(fotos/alimentos-saudaveis.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
 }
