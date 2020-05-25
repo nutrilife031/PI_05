@@ -1,0 +1,16 @@
+body{
+    background-image: url(fotos/dietaflex02.jpg);
+        background-repeat: no-repeat;
+    background-size:100%;
+    background-position-y: 50px;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+
+}

@@ -1,25 +1,41 @@
-|body{
-    margin: 0px;
-    padding: 0px;
-  
+body,html{   
+margin: 0em;
+padding: 0em;
+height:100%;
 
+    }
+.bg-fundo{
+ background-image: url(fotos/alimentos-saudaveis.jpg);
+position:center;
+ height: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
 
+}
+   
+#dropdawhs{
+    background-color: #e0ffc2; 
 }
 #navHome{
     height: 90px;
-    background-color: #008B8B; 
+    background-color: #e0ffc2; 
    
 }
 
 #NavBar1{
-    background-color: #008B8B;
+    background-color: #e0ffc2;
 }
 #NavBarText{
     color:rgb(255, 255, 255);
  
     font-size: 30px;
 }
-
+div a:hover{
+    color: white;
+}
+.navbar a:hover{
+    color: white !important;
+}
 #GRID_RIGTH{
   
     height: 500px;
@@ -29,13 +45,10 @@
  
     margin-left: 12px;
 }
-.bd{
-    background-image: url(fotos/alimentos-saudaveis.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed ; 
+
+footer a:hover{
+    color:white !important;
 }
-.Corpo-HTML{
-    background-image: url(fotos/alimentos-saudaveis.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed ;
+ .image-responsivel {
+    width: 10rem;
 }
